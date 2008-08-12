@@ -1,0 +1,15 @@
+Small script to convert .cbr and .cbz comic files in pdf.
+
+h1. Usage
+
+@@@
+./convert_comic.rb comic_file.cbr
+@@@
+
+It'll output a comic_file.pdf in your current directory.
+
+h1. Requirements
+
+* Ruby 1.8
+* Unzip
+* Unrar
