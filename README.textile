@@ -4,10 +4,13 @@ Script to convert Comic Book files (.cbr and .cbz) in PDF for portable reading.
 
 h2. Usage
 
-@@@
-cd convert_comics_installation
-./moebius.rb comic_file.cbr
-@@@
+<pre>
+<code>
+	cd convert_comics_installation
+
+	./moebius.rb comic_file.cbr
+</code>
+</pre>
 
 It'll output a _comic_file.pdf_ file in your current directory.
 
