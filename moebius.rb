@@ -11,7 +11,7 @@ end
 
 
 basename = File.basename(ARGV[0], File.extname(ARGV[0]))
-target = "/tmp/convert_comics/#{basename}/"
+target = "/tmp/#{basename}/"
 
 # Extract comic images
 FileUtils.mkdir_p target unless File.exists? target
@@ -32,4 +32,4 @@ Prawn::Document.generate("#{basename}.pdf",
   end
 end
 
-FileUtils.rm_r "/tmp/convert_comics/"
+FileUtils.rm_r "/tmp/#{basename}/"
