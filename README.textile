@@ -1,12 +1,13 @@
-Small script to convert .cbr and .cbz comic files in pdf.
+Small script to convert Comic Book files (.cbr and .cbz) in PDF for portable reading.
 
 h1. Usage
 
 @@@
+cd convert_comics_installation
 ./convert_comic.rb comic_file.cbr
 @@@
 
-It'll output a comic_file.pdf in your current directory.
+It'll output a _comic_file.pdf_ file in your current directory.
 
 h1. Requirements
 
