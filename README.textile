@@ -6,7 +6,7 @@ h2. Usage
 
 @@@
 cd convert_comics_installation
-./convert_comic.rb comic_file.cbr
+./moebius.rb comic_file.cbr
 @@@
 
 It'll output a _comic_file.pdf_ file in your current directory.
