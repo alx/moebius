@@ -6,7 +6,7 @@ h2. Usage
 
 <pre>
 <code>
-	cd prawn-gallery/moebius/
+	cd moebius/
 	./moebius.rb example/Y-The_Last_Man-001-Excerpt.cbz
 </code>
 </pre>
@@ -16,5 +16,6 @@ It'll output a Y-The_Last_Man-001-Excerpt.pdf_ file in your current directory.
 h2. Requirements
 
 * Ruby 1.8
+* Gems: rubygems, prawn, fileutils
 * Unzip
 * Unrar
