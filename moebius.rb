@@ -33,7 +33,7 @@ settings =  { :skip_page_creation => true,
                      :left_margin => 0       }
  
 # Generate PDF file            
-Prawn::Document.generate("output/#{basename}.pdf", settings) do
+Prawn::Document.generate("#{basename}.pdf", settings) do
   comicFiles.each do |file|
     start_new_page
     image file, :at => [0,802], :height => 842
