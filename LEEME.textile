@@ -1,8 +1,8 @@
 h1. Moebius
 
-Script to convert Comic Book files (.cbr and .cbz) in PDF for portable reading.
+Script para convertir archivos de Comic Book (.cbr y .cbz) en PDF para leerlos en varios.
 
-h2. Usage
+h2. Uso
 
 <pre>
 <code>
@@ -11,7 +11,8 @@ h2. Usage
 </code>
 </pre>
 
-It'll output a _Y-The_Last_Man-001-Excerpt.pdf_ file in the current directory.
+
+El archivo _Y-The_Last_Man-001-Excerpt.pdf_  in the output/ directory.
 
 h2. Requirements
 
