@@ -12,11 +12,11 @@ h2. Uso
 </pre>
 
 
-El archivo _Y-The_Last_Man-001-Excerpt.pdf_  in the output/ directory.
+El archivo _Y-The_Last_Man-001-Excerpt.pdf_ salire en la carpeta de moebius.
 
-h2. Requirements
+h2. Requisitos
 
 * Ruby 1.8
-* Gems: rubygems, prawn, fileutils
-* Unzip (for .cbz)
-* Unrar (for .cbr)
+* Gems: rubygems, prawn
+* Unzip (para .cbz)
+* Unrar (para .cbr)

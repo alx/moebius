@@ -16,6 +16,6 @@ It'll output a _Y-The_Last_Man-001-Excerpt.pdf_ file in the current directory.
 h2. Requirements
 
 * Ruby 1.8
-* Gems: rubygems, prawn, fileutils
+* Gems: rubygems, prawn
 * Unzip (for .cbz)
 * Unrar (for .cbr)
